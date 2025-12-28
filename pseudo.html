@@ -4,8 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pseudo</title>
+    <style>
+        h3{
+            color: blue;
+        }
+        h3:hover{
+            color: red;
+            background-color: yellow;
+        }
+        input{
+            border: 2px solid blue;
+        }
+        input:focus{
+            color: red;
+            outline: 0;
+            border: 2px solid red;
+        }
+        a:visited{
+            color: Black;
+        }
+        /* li:first-child{
+            color: red;
+        } */
+        /* li:last-child{
+            color: red;
+        } */
+        /* li:nth-child(odd){
+            color: red;
+        } */
+        /* li:nth-child(even){
+            color: red;
+        } */
+        /* li:nth-child(2n+1){
+            color: red;
+        } */
+        li:nth-child(3n+1){
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <h3>pseudo.com</h3>
+    <input type="text"><br><br>
+    <input type="text"><br><br>
+    <input type="text"><br><br>
+    <a href="https://www.google.com">Google</a>
+    <ol>
+        <li>Aliya</li>
+        <li>Dalia</li>
+        <li>Maliya</li>
+        <li>Kaliya</li>
+        <li>Baliya</li>
+    </ol>
 </body>
 </html>
