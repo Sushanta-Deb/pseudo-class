@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-axis</title>
+    <style>
+        .box{
+            position: relative;
+        }
+        
+        .div-1{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(211, 113, 113);
+            border: 1px solid black;
+            z-index: 10;
+        }
+        .div-2{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 1px solid green;
+            top: -30px;
+            z-index: 5;
+        }
+        .div-3{
+            width: 100px;
+            height: 100px;
+            background-color: greenyellow;
+            border: 1px solid red;
+            top: -50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h3>z-axis</h3>
+    <div class="swim-container">
+        <div class="div-1 box"></div>
+        <div class="div-2 box"></div>
+        <div class="div-3 box"></div>
+    </div>
+</body>
+</html>
